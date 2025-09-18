@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitzone</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(62, 89, 98);
+        }
+        .container{
+             height: 100vh;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+           
+             
+        }
+        .header{
+            color: white;
+            background: linear-gradient(to top left, rgb(205, 16, 16), red );
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            width: 400px;
+            /* height: 160px; */
+            gap: 15px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.316);
+        }
+        .emoji{
+            background-color: orange;
+            border-radius: 20px;
+            margin: 10px;
+            padding: 10px;
+            text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.316);
+            box-shadow: 0px 5px 15px rgb(255, 230, 184);
+        }
+       
+       .program{
+        width: 400px;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        text-align: center;
+       }
+       .tprogram{
+         padding-top: 10px;
+        padding-bottom: 10px;
+       }
+       .services{
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        width: 350px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: linear-gradient(  to bottom right, rgb(80, 135, 80),rgb(33, 93, 56));
+         box-shadow: 0px 2px 10px rgba(0, 128, 9, 0.336);
+       }
+       .Membership{
+        color: white;
+        text-shadow: 0px 2px 3px black;
+        background: radial-gradient(  at top left, rgb(22, 136, 202),rgb(19, 69, 126));
+        border-radius: 15px;
+        padding: 10px;
+        width: 350px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        box-shadow: 0px 2px 10px rgba(0, 66, 128, 0.522);
+    }
+    .number{
+        font-weight: bold;
+        color: rgb(245, 206, 212);
+        font-size: 40px;
+    }
+    .footer{
+        background: purple;
+        color: white;
+        padding: 15px;
+        font-size: 14px;
+        border-radius: 0 0 15px 15px;
+        width: 400px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1  >FitZone</h1>
+        <p>Transform Your Body</p>
+        <p class="emoji">💪</p>
+    </div>
+
+    <div class="program">
+        <h2 class="tprogram">Training Programs</h2>
+        
+        <div class="services">
+            <h3>Weight Training</h3>
+            <p>Build strength with our equipment</p>
+        </div>
+        <div class="services">
+            <h3>Cardio Classes</h3>
+            <p>High-energy group workouts</p>
+        </div>
+        <div class="services">
+            <h3>Personal Training</h3>
+            <p>One-on-One coaching Sessions</p>
+        </div>
+        <div class="services">
+            <h3>Yoga & Pilates</h3>
+            <p>Flexibility and mindfulness</p>
+        </div>
+
+        <div class="Membership">
+            <h2>Monthly Membership</h2>
+            <p class="number">$39</p>
+            <p>Unlimited Access</p>
+        </div>
+       <br>
+    </div>
+     <div class="footer">
+            <h2>Visit Our Gym</h2>
+            <p>789 Fitness Street</p>
+            <p>Open 24/7</p>
+        </div>
+</div>
+</body>
+</html>
